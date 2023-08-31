@@ -33,3 +33,13 @@ a {
   width: 1240px;
   @include flex-col-center-center;
 }
+
+.section {
+  padding: 5rem;
+  @include flex-col-center-center;
+  gap: 4rem;
+}
+
+.barred-text {
+  text-decoration: line-through;
+}
