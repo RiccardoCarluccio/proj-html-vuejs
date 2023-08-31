@@ -10,6 +10,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: $color-text;
 }

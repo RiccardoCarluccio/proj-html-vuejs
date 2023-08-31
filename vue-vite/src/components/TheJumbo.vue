@@ -60,8 +60,8 @@
     }
 
     .jumbo-options {
-      height: 80px;
-      width: 80px;
+      height: 66px;
+      width: 66px;
       background-color: $color-primary;
       border-radius: 7px;
       color: $color-text;
@@ -70,11 +70,11 @@
       gap: 0.6rem;
 
       i {
-        font-size: 24px;
+        font-size: 18px;
       }
 
       p {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
       }
     }
