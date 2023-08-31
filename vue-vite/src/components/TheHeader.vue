@@ -26,11 +26,6 @@
     width: 100%;
     @include flex-center-center;
     position: relative;
-
-    .width-container {
-    width: 1240px;
-    height: 150px;
-    }
   }
 
   .header-container::after {

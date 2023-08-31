@@ -73,8 +73,4 @@
   .socials-container a:hover {
     color: $color-interactive;
   }
-
-  .socials-container a {
-  color: $color-text;
-  }
 </style>
