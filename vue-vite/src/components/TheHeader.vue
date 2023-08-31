@@ -11,8 +11,8 @@
 </script>
 
 <template>
-  <div class="header-container">
-    <div class="width-container">
+  <div class="fluid-container">
+    <div class="width-column-container">
       <HeaderLinks/>
       <HeaderNav/>
     </div>
@@ -22,13 +22,8 @@
 <style scoped lang="scss">
   @use "../../scss/partials/mixins" as *;
   @use "../../scss/partials/variables" as *;
-  .header-container {
-    width: 100%;
-    @include flex-center-center;
-    position: relative;
-  }
 
-  .header-container::after {
+  .fluid-container::after {
     content: "";
     border: 1px solid $color-text-light;
     width: 100%;

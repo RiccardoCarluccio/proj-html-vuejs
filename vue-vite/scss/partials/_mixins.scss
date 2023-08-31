@@ -5,7 +5,7 @@
 }
 
 @mixin flex-col-center-center {
-  @include flex-c-c;
+  @include flex-center-center;
   flex-direction: column;
 }
 
