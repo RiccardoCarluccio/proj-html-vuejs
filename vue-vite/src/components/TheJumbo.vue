@@ -87,7 +87,7 @@
 
     .buy-now-option {
       position: absolute;
-      top: 85px;
+      top: 71px;
       right: 1rem;
     }
   }
