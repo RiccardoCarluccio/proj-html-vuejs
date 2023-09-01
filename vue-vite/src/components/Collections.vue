@@ -79,15 +79,16 @@
         }
 
         button {
-          padding: 0.6rem 1.5rem;
+          padding: 0.7rem 1.5rem;
           border: 2px solid $color-primary;
           border-radius: 25px;
           background-color: rgba(255, 255, 255, 0.1);
           color: $color-primary;
           text-transform: uppercase;
-          font-weight: 800;
+          font-weight: 600;
           letter-spacing: 1px;
-          margin-top: 0.8rem;        }
+          margin-top: 0.8rem;
+        }
       }
     }
   }

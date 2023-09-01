@@ -4,6 +4,7 @@
   import FeaturedProducts from './components/FeaturedProducts.vue';
   import Collections from './components/Collections.vue';
   import BestSellers from './components/BestSellers.vue';
+  import SaleShippingInfo from './components/SaleShippingInfo.vue';
 
   export default {
     components: {
@@ -12,6 +13,7 @@
       FeaturedProducts,
       Collections,
       BestSellers,
+      SaleShippingInfo,
     }
   }
 </script>
@@ -22,6 +24,7 @@
   <FeaturedProducts/>
   <Collections/>
   <BestSellers/>
+  <SaleShippingInfo/>
 </template>
 
 <style lang="scss">

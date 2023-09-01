@@ -8,8 +8,8 @@
 </script>
 
 <template>
-  <div class="fluid-container section">
-    <div class="width-column-container featured-gap">
+  <div class="fluid-container section best-seller-padding">
+    <div class="width-column-container section-gap">
       <div class="width-container featured-products-section">
         <div class="section-line"></div>
         <div class="featured-title">
@@ -29,27 +29,30 @@
 <style scoped lang="scss">
   @use "../../scss/partials/variables" as *;
   @use "../../scss/partials/mixins" as *;
-  .featured-gap {
-    gap: 1rem;
-  
-    .featured-products-section {
-      @include flex-center-center;
-      gap: 0.8rem;
+  .best-seller-padding {
+    padding: 8.5rem 0;
+    .section-gap {
+      gap: 1rem;
+    
+      .featured-products-section {
+        @include flex-center-center;
+        gap: 0.8rem;
 
-      .section-line {
-        flex-grow: 1;
-        border: 1px solid $color-text-light;
+        .section-line {
+          flex-grow: 1;
+          border: 1px solid $color-text-light;
+        }
+
+        h2 {
+          text-transform: capitalize;
+          font-size: 36px;
+        }
       }
-
-      h2 {
-        text-transform: capitalize;
-        font-size: 36px;
+      h4 {
+        color: $color-text;
+        font-weight: 400;
       }
     }
-    h4 {
-      color: $color-text;
-      font-weight: 400;
-    }
-  }  
+  }
 
 </style>
