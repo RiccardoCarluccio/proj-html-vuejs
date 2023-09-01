@@ -3,6 +3,7 @@
   import TheJumbo from './components/TheJumbo.vue';
   import FeaturedProducts from './components/FeaturedProducts.vue';
   import Collections from './components/Collections.vue';
+  import BestSellers from './components/BestSellers.vue';
 
   export default {
     components: {
@@ -10,6 +11,7 @@
       TheJumbo,
       FeaturedProducts,
       Collections,
+      BestSellers,
     }
   }
 </script>
@@ -19,6 +21,7 @@
   <TheJumbo/>
   <FeaturedProducts/>
   <Collections/>
+  <BestSellers/>
 </template>
 
 <style lang="scss">
