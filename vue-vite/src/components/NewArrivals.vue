@@ -1,10 +1,11 @@
 <script>
-  import BestSellersPreview from "./BestSellersPreview.vue";
+  import NewArrivalsPreview from './NewArrivalsPreview.vue';
+
   export default {
     components: {
-      BestSellersPreview,
+      NewArrivalsPreview,
     }
-  };
+  }
 </script>
 
 <template>
@@ -13,16 +14,16 @@
       <div class="width-container featured-products-section">
         <div class="section-line"></div>
         <div class="featured-title">
-          <h2>best seller</h2>
+          <h2>new arrivals</h2>
         </div>
         <div class="section-line"></div>
       </div>
-      <h4>Must have products from our top sellers</h4>
+      <h4>Brand new products from top designers</h4>
     </div>
+  </div>
 
-    <div class="width-container">
-      <BestSellersPreview/>
-    </div>
+  <div class="fluid-container">
+    <NewArrivalsPreview/>
   </div>
 </template>
 
@@ -30,6 +31,7 @@
   @use "../../scss/partials/variables" as *;
   @use "../../scss/partials/mixins" as *;
   .section-padding {
+    padding: 8.5rem 0;
     .section-gap {
       gap: 1rem;
     
@@ -53,5 +55,4 @@
       }
     }
   }
-
 </style>

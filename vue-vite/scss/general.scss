@@ -20,8 +20,8 @@ a {
 
 .fluid-container {
   width: 100%;
-    @include flex-center-center;
-    position: relative;
+  @include flex-center-center;
+  position: relative;
 }
 
 .width-container {
@@ -38,6 +38,10 @@ a {
   padding: 5rem 0;
   @include flex-col-center-center;
   gap: 4rem;
+}
+
+.section-padding {
+  padding: 8rem 0;
 }
 
 .barred-text {
