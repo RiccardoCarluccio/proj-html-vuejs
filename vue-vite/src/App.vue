@@ -7,6 +7,7 @@
   import SaleShippingInfo from './components/SaleShippingInfo.vue';
   import NewArrivals from './components/NewArrivals.vue';
   import Testimonials from './components/Testimonials.vue';
+  import FromOurBlog from './components/FromOurBlog.vue';
 
   export default {
     components: {
@@ -18,6 +19,7 @@
       SaleShippingInfo,
       NewArrivals,
       Testimonials,
+      FromOurBlog,
     }
   }
 </script>
@@ -31,6 +33,7 @@
   <SaleShippingInfo/>
   <NewArrivals/>
   <Testimonials/>
+  <FromOurBlog/>
 </template>
 
 <style lang="scss">
