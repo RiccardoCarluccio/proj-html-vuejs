@@ -9,7 +9,7 @@
   import Testimonials from './components/Testimonials.vue';
   import FromOurBlog from './components/FromOurBlog.vue';
   import Reviews from './components/Reviews.vue';
-  import BrandLogos from './components/BrandLogos.vue';
+  import TheFooter from './components/TheFooter.vue';
 
   export default {
     components: {
@@ -23,13 +23,14 @@
       Testimonials,
       FromOurBlog,
       Reviews,
-      BrandLogos,
+      TheFooter,
     }
   }
 </script>
 
 <template>
   <TheHeader/>
+
   <TheJumbo/>
   <FeaturedProducts/>
   <Collections/>
@@ -39,7 +40,8 @@
   <Testimonials/>
   <FromOurBlog/>
   <Reviews/>
-  <BrandLogos/>
+
+  <TheFooter/>
 </template>
 
 <style lang="scss">
