@@ -8,6 +8,8 @@
   import NewArrivals from './components/NewArrivals.vue';
   import Testimonials from './components/Testimonials.vue';
   import FromOurBlog from './components/FromOurBlog.vue';
+  import Reviews from './components/Reviews.vue';
+  import BrandLogos from './components/BrandLogos.vue';
 
   export default {
     components: {
@@ -20,6 +22,8 @@
       NewArrivals,
       Testimonials,
       FromOurBlog,
+      Reviews,
+      BrandLogos,
     }
   }
 </script>
@@ -34,6 +38,8 @@
   <NewArrivals/>
   <Testimonials/>
   <FromOurBlog/>
+  <Reviews/>
+  <BrandLogos/>
 </template>
 
 <style lang="scss">
