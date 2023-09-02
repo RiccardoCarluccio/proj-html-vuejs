@@ -30,6 +30,7 @@
   @use "../../scss/partials/variables" as *;
   @use "../../scss/partials/mixins" as *;
   .section-padding {
+    padding: 6.5rem;
     .section-gap {
       gap: 1rem;
     

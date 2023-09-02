@@ -132,12 +132,13 @@
   .fluid-container::before {
     content: "";
     border: 1px solid $color-text-light;
-    width: 100%;
+    width: 97%;
   }
 
   .fluid-container {
     @include flex-col-center-center;
     gap: 5rem;
+    padding-bottom: 5rem;
 
     .width-container {
       display: flex;
