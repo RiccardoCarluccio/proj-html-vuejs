@@ -46,39 +46,6 @@
         ${{obj.currentPrice}}</p>
     </div>
   </div>
-
-  <!-- <div class="featured-preview-container">
-    <div class="featured-image-container">
-      <img src="../assets/images/black_leather_suit.jpg" alt="Black Leather Suit">
-    </div>
-    <div class="featured-product-description">
-      <h4>black leather suit</h4>
-      <h6>men, jackets</h6>
-      <p class="featured-price">$176</p>
-    </div>
-  </div>
-
-  <div class="featured-preview-container">
-    <div class="featured-image-container">
-      <img src="../assets/images/blue_jacket_and_white_stripe_tee.jpg" alt="Black Jacket & Stripe Tee">
-    </div>
-    <div class="featured-product-description">
-      <h4>black jacket & stripe tee</h4>
-      <h6>men, jackets, suits</h6>
-      <p class="featured-price">$580</p>
-    </div>
-  </div>
-
-  <div class="featured-preview-container">
-    <div class="featured-image-container">
-      <img src="../assets/images/modern_black_leather_suit.jpg" alt="Modern Black Leather Suit">
-    </div>
-    <div class="featured-product-description">
-      <h4>modern black leather suit</h4>
-      <h6>men, jackets</h6>
-      <p class="featured-price">$96</p>
-    </div>
-  </div> -->
 </template>
 
 <style scoped lang="scss">
