@@ -1,0 +1,55 @@
+[
+  {
+    "productName": "Black Leather Jacket",
+    "path": "black_elegant_leather_jacket.jpg",
+    "gender": "Men",
+    "upper": "Jackets",
+    "lower": "Jeans",
+    "fullPrice": "235",
+    "discountPrice": "200"
+  },
+  {
+    "productName": "Black Leather Jacket",
+    "path": "black_leather_jacket.jpg",
+    "gender": "Women"
+  },
+  {
+    "productName": "Black Leather Suit",
+    "path": "black_leather_suit.jpg",
+    "gender": "Men",
+    "discountPrice": "176"
+  },
+  {
+    "productName": "Blue Jacket & Stripe Tee",
+    "path": "blue_jacket_and_white_stripe_tee.jpg",
+    "gender": "Men",
+    "discountPrice": "580"
+  },
+  {
+    "productName": "Blue Leather Jacket",
+    "path": "blue_leather_jacket.jpg",
+    "fullPrice": "80",
+    "discountPrice": "60"
+  },
+  {
+    "productName": "Hipster Black Top",
+    "path": "hipster_black_top.jpg",
+    "gender": "Women"
+  },
+  {
+    "productName": "Modern Black Leather Suit",
+    "path": "modern_black_leather_suit.jpg",
+    "gender": "Men",
+    "discountPrice": "96"
+  },
+  {
+    "productName": "Modern Love Tee",
+    "path": "modern_love_tee.jpg",
+    "gender": "Women"
+  },
+  {
+    "productName": "Spring Printed Dress",
+    "path": "spring_printed_dress.jpg",
+    "gender": "Women"
+  }
+]

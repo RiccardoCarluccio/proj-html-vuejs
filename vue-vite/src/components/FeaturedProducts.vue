@@ -1,6 +1,13 @@
 <script>
   import FeaturedProductPreviews from "./FeaturedProductPreviews.vue";
+  import productDatabase from "../productDatabase.json";
+
   export default {
+    data() {
+      return {
+        productDatabase,
+      }
+    },
     components: {
       FeaturedProductPreviews,
     }
@@ -27,7 +34,9 @@
     </div>
 
     <div class="width-container">
-      <FeaturedProductPreviews/>
+      <div v-for="product in productDatabase">
+        <FeaturedProductPreviews :obj="product"/>
+      </div>      
     </div>
   </div>
 </template>
@@ -63,7 +72,7 @@
   button {
     background-color: $color-light-background;
     text-transform: capitalize;
-    padding: 1rem 3rem;
+    padding: 0.8rem 3rem;
     font-weight: 600;
     border: 1px solid $color-text-light;
     font-size: 16px;

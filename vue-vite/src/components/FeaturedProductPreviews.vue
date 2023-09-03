@@ -1,22 +1,41 @@
 <script>
-  export default {
 
+  export default {
+    props: {
+      obj: {
+        productName: {type: String,
+                    required: true},
+        path: String,
+        gender: {type: String,
+                required: true},
+        upper: String,
+        lower: String,
+      }
+    },
+    methods: {
+      getImage(obj) {
+          return new URL(`../assets/images/${obj.path}`, import.meta.url).href;
+      },
+    },
   };
 </script>
 
 <template>
-  <div class="featured-preview-container">
+  <div class="featured-preview-container" v-if="obj.gender === 'Men'">
     <div class="featured-image-container">
-      <img src="../assets/images/black_elegant_leather_jacket.jpg" alt="Black Leather Jacket">
+      <img :src="getImage(obj)" :alt="obj.productName">
     </div>
     <div class="featured-product-description">
-      <h4>black leather jacket</h4>
+      <h4> {{ obj.productName }} </h4>
       <h6>men, jackets, jeans</h6>
-      <p class="featured-price"><span class="barred-text">$235</span> $200</p>
+      <p class="featured-price">
+        <span v-if="obj.fullPrice">$</span>
+        <span class="barred-text">{{ obj.fullPrice }}</span>
+        ${{obj.discountPrice}}</p>
     </div>
   </div>
 
-  <div class="featured-preview-container">
+  <!-- <div class="featured-preview-container">
     <div class="featured-image-container">
       <img src="../assets/images/black_leather_suit.jpg" alt="Black Leather Suit">
     </div>
@@ -47,7 +66,7 @@
       <h6>men, jackets</h6>
       <p class="featured-price">$96</p>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <style scoped lang="scss">
