@@ -2,57 +2,94 @@
   {
     "productName": "Black Leather Jacket",
     "path": "black_elegant_leather_jacket.jpg",
-    "gender": "Men",
+    "for": "Men",
     "upper": "Jackets",
     "lower": "Jeans",
     "fullPrice": "235",
-    "discountPrice": "200"
-  },
-  {
-    "productName": "Black Leather Jacket",
-    "path": "black_leather_jacket.jpg",
-    "gender": "Women"
+    "currentPrice": "200"
   },
   {
     "productName": "Black Leather Suit",
     "path": "black_leather_suit.jpg",
-    "gender": "Men",
+    "for": "Men",
     "upper": "Jackets",
-    "discountPrice": "176"
+    "currentPrice": "176"
   },
   {
     "productName": "Blue Jacket & Stripe Tee",
     "path": "blue_jacket_and_white_stripe_tee.jpg",
-    "gender": "Men",
+    "for": "Men",
     "upper": "Jackets",
-    "discountPrice": "580"
+    "currentPrice": "580"
+  },
+  {
+    "productName": "Modern Black Leather Suit",
+    "path": "modern_black_leather_suit.jpg",
+    "for": "Men",
+    "upper": "Jackets",
+    "currentPrice": "96"
   },
   {
     "productName": "Blue Leather Jacket",
     "path": "blue_leather_jacket.jpg",
     "fullPrice": "80",
-    "discountPrice": "60"
+    "currentPrice": "60"
+  },
+  {
+    "productName": "Black Jacket",
+    "path": "black_leather_jacket.jpg",
+    "for": "Women",
+    "currentPrice": "125"
   },
   {
     "productName": "Hipster Black Top",
     "path": "hipster_black_top.jpg",
-    "gender": "Women"
-  },
-  {
-    "productName": "Modern Black Leather Suit",
-    "path": "modern_black_leather_suit.jpg",
-    "gender": "Men",
-    "upper": "Jackets",
-    "discountPrice": "96"
+    "for": "Women",
+    "currentPrice": "57"
   },
   {
     "productName": "Modern Love Tee",
     "path": "modern_love_tee.jpg",
-    "gender": "Women"
+    "for": "Women",
+    "currentPrice": "68"
   },
   {
     "productName": "Spring Printed Dress",
     "path": "spring_printed_dress.jpg",
-    "gender": "Women"
+    "for": "Women",
+    "currentPrice": "47"
+  },
+  {
+    "productName": "Casual Leather Belt",
+    "path": "casual_leather_belts.jpg",
+    "for": "Accessories",
+    "gender": "Men",
+    "currentPrice": "65"
+  },
+  {
+    "productName": "Leather Gloves",
+    "path": "leather_gloves.jpg",
+    "for": "Accessories",
+    "gender": "Men, Women",
+    "type": "Gloves",
+    "currentPrice": "45"
+  },
+  {
+    "productName": "Modern Leather Boots",
+    "path": "modern_leather_boots.jpg",
+    "for": "Accessories",
+    "gender": "Men",
+    "type": "Miscellaneous, Shoes",
+    "fullPrice": "50",
+    "currentPrice": "30"
+  },
+  {
+    "productName": "Brown Dress Shoes",
+    "path": "brown_dress_shoes.jpg",
+    "for": "Accessories",
+    "gender": "Women",
+    "type": "Miscellaneous, Shoes",
+    "fullPrice": "46",
+    "currentPrice": "36"
   }
 ]

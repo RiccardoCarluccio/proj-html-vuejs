@@ -27,21 +27,23 @@
 </script>
 
 <template>
-  <div class="featured-preview-container" v-if="obj.gender === store.selectedGender">
+  <div class="featured-preview-container" v-if="obj.for === store.selectedGender">
     <div class="featured-image-container">
       <img :src="getImage(obj)" :alt="obj.productName">
     </div>
     <div class="featured-product-description">
       <h4> {{ obj.productName }} </h4>
       <h6>
-        <span>{{ obj.gender }}, </span>
+        <span>{{ obj.for }}, </span>
+        <span v-if="obj.gender">{{ obj.gender }}<span v-if="obj.type">, </span></span>
+        <span v-if="obj.type">{{ obj.type }}</span>
         <span v-if="obj.upper">{{ obj.upper }}<span v-if="obj.lower">, </span></span>
         <span v-if="obj.lower">{{ obj.lower }}</span>
       </h6>
       <p class="featured-price">
         <span v-if="obj.fullPrice">$</span>
-        <span class="barred-text">{{ obj.fullPrice }}</span>
-        ${{obj.discountPrice}}</p>
+        <span v-if="obj.fullPrice" class="barred-text">{{ obj.fullPrice }}</span>
+        ${{obj.currentPrice}}</p>
     </div>
   </div>
 
