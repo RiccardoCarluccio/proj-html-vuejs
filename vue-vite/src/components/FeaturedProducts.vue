@@ -1,15 +1,20 @@
 <script>
   import FeaturedProductPreviews from "./FeaturedProductPreviews.vue";
   import productDatabase from "../productDatabase.json";
+  import { store, changeGender } from "../store.js";
 
   export default {
     data() {
       return {
         productDatabase,
+        store,
       }
     },
     components: {
       FeaturedProductPreviews,
+    },
+    methods: {
+      changeGender,
     }
   };
 </script>
@@ -28,9 +33,9 @@
     </div>
 
     <div class="width-container">
-      <button>men</button>
-      <button>women</button>
-      <button>accessories</button>
+      <button @click="changeGender(`Men`)">men</button>
+      <button @click="changeGender(`Women`)">women</button>
+      <button @click="changeGender(`Accessories`)">accessories</button>
     </div>
 
     <div class="width-container">

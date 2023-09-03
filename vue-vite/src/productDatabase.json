@@ -17,12 +17,14 @@
     "productName": "Black Leather Suit",
     "path": "black_leather_suit.jpg",
     "gender": "Men",
+    "upper": "Jackets",
     "discountPrice": "176"
   },
   {
     "productName": "Blue Jacket & Stripe Tee",
     "path": "blue_jacket_and_white_stripe_tee.jpg",
     "gender": "Men",
+    "upper": "Jackets",
     "discountPrice": "580"
   },
   {
@@ -40,6 +42,7 @@
     "productName": "Modern Black Leather Suit",
     "path": "modern_black_leather_suit.jpg",
     "gender": "Men",
+    "upper": "Jackets",
     "discountPrice": "96"
   },
   {
