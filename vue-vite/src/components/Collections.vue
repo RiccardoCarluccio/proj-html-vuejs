@@ -73,9 +73,10 @@
         }
 
         h4 {
-          font-size: 24px;
+          font-size: 16px;
           font-weight: 500;
-          letter-spacing: 0.1rem;
+          letter-spacing: 0.2rem;
+          text-transform: uppercase;
         }
 
         button {

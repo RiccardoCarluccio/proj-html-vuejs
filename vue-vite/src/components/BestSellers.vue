@@ -1,9 +1,18 @@
 <script>
   import BestSellersPreview from "./BestSellersPreview.vue";
+  import productDatabase from "../productDatabase.json";
+  import { store } from "../store.js";
+
   export default {
+    data() {
+      return {
+        productDatabase,
+        store,
+      }
+    },
     components: {
       BestSellersPreview,
-    }
+    },
   };
 </script>
 
@@ -20,8 +29,10 @@
       <h4>Must have products from our top sellers</h4>
     </div>
 
-    <div class="width-container">
-      <BestSellersPreview/>
+    <div class="width-container best-seller-container">
+      <div v-for="product in productDatabase">
+        <BestSellersPreview :obj="product"/>
+      </div>      
     </div>
   </div>
 </template>
@@ -52,6 +63,10 @@
         font-weight: 400;
       }
     }
+  }
+
+  .best-seller-container {
+    overflow-y: hidden;
   }
 
 </style>

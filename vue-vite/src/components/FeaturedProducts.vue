@@ -41,7 +41,7 @@
     <div class="width-container">
       <div v-for="product in productDatabase">
         <FeaturedProductPreviews :obj="product"/>
-      </div>      
+      </div>
     </div>
   </div>
 </template>

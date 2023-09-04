@@ -1,37 +1,33 @@
 <script>
-  export default {
+  import { store, getImage } from "../store";
 
+  export default {
+    data() {
+      return {
+        store,
+      }
+    },
+    props: {
+      obj: {
+        productName: {type: String,
+                    required: true},
+        path: String,
+        gender: {type: String,
+                required: true},
+        upper: String,
+        lower: String,
+      }
+    },
+    methods: {
+      getImage,
+    },
   };
 </script>
 
 <template>
-  <div class="featured-preview-container">
+  <div class="featured-preview-container" v-if="obj.for !== 'Accessories'">
     <div class="featured-image-container">
-      <img src="../assets/images/black_elegant_leather_jacket.jpg" alt="Black Leather Jacket">
-    </div>
-  </div>
-
-  <div class="featured-preview-container">
-    <div class="featured-image-container">
-      <img src="../assets/images/black_leather_suit.jpg" alt="Black Leather Suit">
-    </div>
-  </div>
-
-  <div class="featured-preview-container">
-    <div class="featured-image-container">
-      <img src="../assets/images/blue_jacket_and_white_stripe_tee.jpg" alt="Black Jacket & Stripe Tee">
-    </div>
-  </div>
-
-  <div class="featured-preview-container">
-    <div class="featured-image-container">
-      <img src="../assets/images/modern_black_leather_suit.jpg" alt="Modern Black Leather Suit">
-    </div>
-  </div>
-
-  <div class="featured-preview-container">
-    <div class="featured-image-container">
-      <img src="../assets/images/hipster_black_top.jpg" alt="Modern Black Leather Suit">
+      <img :src="getImage(obj)" :alt="obj.productName">
     </div>
   </div>
 </template>
