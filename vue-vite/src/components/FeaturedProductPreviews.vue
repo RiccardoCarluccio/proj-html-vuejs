@@ -28,6 +28,14 @@
   <div class="featured-preview-container" v-if="obj.for === store.selectedGender">
     <div class="featured-image-container">
       <img :src="getImage(obj)" :alt="obj.productName">
+      <div class="hover-details">
+        <div class="cart-details">
+          <i class="fa-solid fa-cart-shopping"></i>Add to cart
+        </div>
+        <div class="cart-details">
+          <i class="fa-solid fa-bars"></i>Details
+        </div>
+      </div>
     </div>
     <div class="featured-product-description">
       <h4> {{ obj.productName }} </h4>
@@ -93,5 +101,9 @@
       font-size: 12px;
       padding-top: 0.3rem;
     }
+  }
+
+  .hover-details {
+    @include flex-col-center-center;
   }
 </style>

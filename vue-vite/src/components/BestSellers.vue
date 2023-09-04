@@ -30,9 +30,15 @@
     </div>
 
     <div class="width-container best-seller-container">
+      <div class="arrow left-arrow">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div class="arrow right-arrow">
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
       <div v-for="product in productDatabase">
         <BestSellersPreview :obj="product"/>
-      </div>      
+      </div>
     </div>
   </div>
 </template>
@@ -66,7 +72,31 @@
   }
 
   .best-seller-container {
-    overflow-y: hidden;
+    
+    position: relative;
+
+    .arrow {
+      width: 30px;
+      height: 60px;
+      position: absolute;
+      transform: translate(0, -50%);
+      background-color: $slider-button;
+      @include flex-center-center;
+
+      i {
+        color: $color-primary;
+      }
+    }
+
+    .left-arrow {
+      left: 0;
+      top: 50%;
+    }
+
+    .right-arrow {
+      right: 0;
+      top: 50%;
+    }
   }
 
 </style>
