@@ -1,11 +1,19 @@
 <script>
   import NewArrivalsPreview from './NewArrivalsPreview.vue';
+  import productDatabase from "../productDatabase.json";
+  import { store } from "../store.js";
 
   export default {
+    data() {
+      return {
+        productDatabase,
+        store,
+      }
+    },
     components: {
       NewArrivalsPreview,
     }
-  }
+  };
 </script>
 
 <template>
@@ -22,7 +30,13 @@
     </div>
 
     <div class="fluid-container">
-      <NewArrivalsPreview/>
+      <div class="arrow left-arrow">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div class="arrow right-arrow">
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+        <NewArrivalsPreview v-for="product in productDatabase" :obj="product"/>
     </div>
   </div>
 </template>
