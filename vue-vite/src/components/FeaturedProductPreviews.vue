@@ -1,5 +1,5 @@
 <script>
-  import { store } from "../store.js";
+  import { store, getImage } from "../store.js";
 
   export default {
     data() {
@@ -19,9 +19,7 @@
       }
     },
     methods: {
-      getImage(obj) {
-          return new URL(`../assets/images/${obj.path}`, import.meta.url).href;
-      },
+      getImage,
     },
   };
 </script>

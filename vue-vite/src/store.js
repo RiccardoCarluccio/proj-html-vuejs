@@ -10,5 +10,8 @@ export let store = reactive({
  */
 export function changeGender(gender) {
   store.selectedGender = gender;
-  console.log(store.selectedGender);
+}
+
+export function getImage(obj) {
+  return new URL(`./assets/images/${obj.path}`, import.meta.url).href;
 }
