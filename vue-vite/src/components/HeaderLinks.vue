@@ -57,7 +57,6 @@
 
       button {
         background-color: transparent;
-        outline: none;
         border: none;
       }
 

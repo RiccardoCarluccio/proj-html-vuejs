@@ -9,7 +9,7 @@
     <div class="width-column-container jumbo-container">
       <h1>avada classic shop</h1>
       <h2>show your products with style</h2>
-      <button>get avada now!</button>
+      <button class="background-transparent">get avada now!</button>
     </div>
 
     <div class="jumbo-options prebuilts-option">
@@ -90,5 +90,9 @@
       top: 71px;
       right: 1rem;
     }
+  }
+
+  .background-transparent:hover {
+    background-color: transparent;
   }
 </style>
