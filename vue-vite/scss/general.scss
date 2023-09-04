@@ -113,3 +113,8 @@ a {
   right: 0;
   top: 50%;
 }
+
+.carousel-container { 
+  @include flex-carousel;
+  position: relative;
+}

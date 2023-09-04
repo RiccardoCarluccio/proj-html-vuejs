@@ -29,7 +29,7 @@
       <h4>Must have products from our top sellers</h4>
     </div>
 
-    <div class="width-container best-seller-container">
+    <div class="width-container carousel-container">
       <div class="arrow left-arrow">
         <i class="fa-solid fa-angle-left"></i>
       </div>
@@ -69,10 +69,6 @@
         font-weight: 400;
       }
     }
-  }
-
-  .best-seller-container { 
-    position: relative;
   }
 
 </style>

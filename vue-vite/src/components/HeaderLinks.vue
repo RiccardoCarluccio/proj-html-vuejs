@@ -66,6 +66,7 @@
         text-transform: capitalize;
         color: $color-text-light;
         font-weight: 600;
+        outline: none;
       }
     }
   }

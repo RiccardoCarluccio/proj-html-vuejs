@@ -29,7 +29,7 @@
       <h4>Brand new products from top designers</h4>
     </div>
 
-    <div class="fluid-container">
+    <div class="fluid-container carousel-container">
       <div class="arrow left-arrow">
         <i class="fa-solid fa-angle-left"></i>
       </div>
