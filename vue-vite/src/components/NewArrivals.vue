@@ -20,10 +20,10 @@
       </div>
       <h4>Brand new products from top designers</h4>
     </div>
-  </div>
 
-  <div class="fluid-container">
-    <NewArrivalsPreview/>
+    <div class="fluid-container">
+      <NewArrivalsPreview/>
+    </div>
   </div>
 </template>
 

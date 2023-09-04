@@ -88,3 +88,28 @@ a {
 .featured-image-container:hover .cart-details {
   opacity: 1;
 }
+
+//CAROUSEL ARROW
+.arrow {
+  width: 30px;
+  height: 60px;
+  z-index: 100;
+  position: absolute;
+  transform: translate(0, -50%);
+  background-color: $slider-button;
+  @include flex-center-center;
+
+  i {
+    color: $color-primary;
+  }
+}
+
+.left-arrow {
+  left: 0;
+  top: 50%;
+}
+
+.right-arrow {
+  right: 0;
+  top: 50%;
+}

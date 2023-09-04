@@ -71,32 +71,8 @@
     }
   }
 
-  .best-seller-container {
-    
+  .best-seller-container { 
     position: relative;
-
-    .arrow {
-      width: 30px;
-      height: 60px;
-      position: absolute;
-      transform: translate(0, -50%);
-      background-color: $slider-button;
-      @include flex-center-center;
-
-      i {
-        color: $color-primary;
-      }
-    }
-
-    .left-arrow {
-      left: 0;
-      top: 50%;
-    }
-
-    .right-arrow {
-      right: 0;
-      top: 50%;
-    }
   }
 
 </style>
